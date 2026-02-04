@@ -1,2 +1,21 @@
 # chimera-autonomous-influencers
-Foundational infrastructure for Project Chimera- a robust, spec-driven platform developing autonomous AI influencers. The repository contains structured specifications, test-driven setups, Docker, and CI/CD configurations, ensuring traceability and seamless agent orchestration. 
+
+Project Chimera: **Agentic Infrastructure Challenge** repository.
+
+## Quickstart
+- Install deps (local): `make setup`
+- Spec validation: `make spec-check`
+- Run tests in Docker (expected to fail until implemented): `make test`
+- Run tests locally: `make test-local`
+
+## Where to look
+- Submission index: `all.md`
+- Research: `research/`
+- Specs (source of truth): `specs/`
+- Runtime skills (stubs + contracts): `skills/`
+- Failing tests (TDD empty slots): `tests/`
+- CI: `.github/workflows/main.yml`
+- IDE agent rules: `CLAUDE.md` and `.cursor/rules`
+
+## Traceability
+Tenx MCP Sense is configured in `.vscode/mcp.json` and should remain connected during development.
