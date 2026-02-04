@@ -1,0 +1,19 @@
+[project]
+name = "chimera-autonomous-influencers"
+version = "0.1.0"
+description = "Spec-driven agentic infrastructure for Project Chimera."
+requires-python = ">=3.11"
+readme = "README.md"
+dependencies = [
+  "pydantic-ai",
+  "mcp",
+  "weaviate-client",
+  "redis",
+  "coinbase-agentkit",
+  "langchain",
+  "cdp-sdk",
+  "pytest",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
