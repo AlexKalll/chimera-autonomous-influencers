@@ -1,0 +1,11 @@
+reviews:
+  high_level_summary: true
+  review_status: true
+  auto_review:
+    enabled: true
+
+instructions:
+  - "Check for Spec-Driven Development alignment: code must match specs/ contracts."
+  - "Flag any implementation that bypasses MCP for external side-effects."
+  - "Identify security issues (secrets, unsafe subprocess, SSRF, prompt injection risks)."
+  - "Prefer small, traceable changes; require tests for new behavior."
