@@ -1,0 +1,8 @@
+pydantic-ai
+mcp
+weaviate-client
+redis
+coinbase-agentkit
+langchain
+cdp-sdk
+pytest
